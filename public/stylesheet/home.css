@@ -1,0 +1,12 @@
+body{
+    background-color: rgb(6, 44, 52);
+}
+.flex-container{
+    display: flex;
+}
+
+img{
+    margin-left: 120px;
+    width : 1180px;
+    height: 550px;
+}

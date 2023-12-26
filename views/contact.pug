@@ -1,0 +1,30 @@
+//-  Including a layout file for consistent structure
+html
+    head
+        title CONTACT 
+        link(rel='stylesheet', href='/stylesheet/contact.css')
+        script(src="https://kit.fontawesome.com/bd3eb1213d.js", crossorigin="anonymous")
+    body
+        include ./layout.pug    
+        .flex-container
+            img(src="9.PNG", alt="services photo"  )  
+            .card
+                p.heading  Contact us... 
+                p.headingTEXT  Got a question or need assistance? Contact us today!Our team is here to help. Whether you have inquiries about our services, want to provide feedback, or simply want to say hello, we're eager to hear from you. 
+                    .input-div
+                        input.input(type='text', placeholder='YOUR NAME...')
+                    .input-div
+                        input.input(type='text', placeholder='Email...')
+                    .input-div
+                        input.input(type='text', placeholder='PHONE NUMBER...')
+                    .input-div
+                        input.input(type='text', placeholder='MESSAGE...')
+                    .button-div
+                button.submit SEND   
+                .seperator
+                i.fa-brands.fa-square-facebook
+                i.fa-brands.fa-square-twitter
+                i.fa-brands.fa-instagram
+                i.fa-solid.fa-square-phone
+                i.fa-solid.fa-envelope
+                i.fa-solid.fa-location-dot
